@@ -7,4 +7,5 @@ fun main() {
 
     val parentArray = arrayListOf(array,array2)
     println(parentArray[0][1]) // 鈴木
+
 }
