@@ -1,7 +1,6 @@
 // クラス名の直後にそのままコンストラクタで定義する値の設定が可能(constructorは省略可能)
 // コンストラクタの変数にvar や valをつけることでフィールド定義も不要となる
-class Student constructor(name:String) {
-    var name = name
+class Student constructor(var name: String) {
     fun avg(math:Int,english:Int) {
         println((math + english)/2)
     }
